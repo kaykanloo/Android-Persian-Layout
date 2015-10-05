@@ -15,3 +15,7 @@ You can compile the package or use the prebuilt one:
 
 ## Using
 * After installing the package, click on your hardware keyboard in Android's input settings and choose the Persian layout.
+
+# Compatibility
+* The minimum Android version: Android 4.1 Jelly Bean
+* The target Android version:  Android 6.0 Marshmallow
