@@ -3,3 +3,4 @@ bin/
 gen/
 libs/
 .DS_Store
+.gradle/
