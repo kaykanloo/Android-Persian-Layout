@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<keyboard-layouts xmlns:android="http://schemas.android.com/apk/res/android">
-    <keyboard-layout android:name="keyboard_layout_lithuanian"
-            android:label="@string/keyboard_layout_lithuanian_label"
-            android:keyboardLayout="@raw/keyboard_layout_lithuanian" />
-    <keyboard-layout android:name="keyboard_layout_lithuanian_ibm"
-            android:label="@string/keyboard_layout_lithuanian_ibm_label"
-            android:keyboardLayout="@raw/keyboard_layout_lithuanian_ibm" />
-</keyboard-layouts>

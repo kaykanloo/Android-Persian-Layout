@@ -1,0 +1,625 @@
+# Copyright (C) 2014 Mohammad Kaykanloo
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#
+# Character map for full alphabetic Persian PC style external keyboards.
+#
+
+type OVERLAY
+
+### Basic QWERTY keys ###
+
+key A {
+    label:                              '\u0634'
+    base:                               '\u0634'
+    shift:                              '\u0624'
+}
+
+key B {
+    label:                              '\u0630'
+    base:                               '\u0630'
+    shift:                              '\u200C'
+	alt:                                '\u200D'
+}
+
+key C {
+    label:                              '\u0632'
+    base:                               '\u0632'
+    shift:                              '\u0698'
+}
+
+key D {
+    label:                              '\u06CC'
+    base:                               '\u06CC'
+    shift:                              '\u064A'
+	alt:                                '\u0649'
+}
+
+key E {
+    label:                              '\u062B'
+    base:                               '\u062B'
+    shift:                              '\u064D'
+    alt:                                '\u20AC'
+}
+
+key F {
+    label:                              '\u0628'
+    base:                               '\u0628'
+    shift:                              '\u0625'
+}
+
+key G {
+    label:                              '\u0644'
+    base:                               '\u0644'
+    shift:                              '\u0623'
+}
+
+key H {
+    label:                              '\u0627'
+    base:                               '\u0627'
+    shift:                              '\u0622'
+	alt:                                '\u0671'
+}
+
+key I {
+    label:                              '\u0647'
+    base:                               '\u0647'
+    shift:                              '\u0651'
+    alt:                                '\u202D'
+}
+
+key J {
+    label:                              '\u062A'
+    base:                               '\u062A'
+    shift:                              '\u0629'
+}
+
+key K {
+    label:                              '\u0646'
+    base:                               '\u0646'
+    shift:                              '\u00BB'
+	alt:                                '\uFD3E'
+}
+
+key L {
+    label:                              '\u0645'
+    base:                               '\u0645'
+    shift:                              '\u00AB'
+	alt:                                '\uFD3F'
+}
+
+key M {
+    label:                              '\u067E'
+    base:                               '\u067E'
+    shift:                              '\u0621'
+	alt:                                '\u2026'
+}
+
+key N {
+    label:                              '\u062F'
+    base:                               '\u062F'
+    shift:                              '\u0654'
+    alt:                                '\u0655'
+}
+
+key O {
+    label:                              '\u062E'
+    base:                               '\u062E'
+    shift:                              '\u005D'
+	alt:                                '\u202E'
+}
+
+key P {
+    label:                              '\u062D'
+    base:                               '\u062D'
+    shift:                              '\u005B'
+	alt:                                '\u202C'
+}
+
+key Q {
+    label:                              '\u0636'
+    base:                               '\u0636'
+    shift:                              '\u0652'
+	alt:                                '\u00B0'
+}
+
+key R {
+    label:                              '\u0642'
+    base:                               '\u0642'
+    shift:                              '\u064B'
+}
+
+key S {
+    label:                              '\u0633'
+    base:                               '\u0633'
+    shift:                              '\u0626'
+}
+
+key T {
+    label:                              '\u0641'
+    base:                               '\u0641'
+    shift:                              '\u064F'
+}
+
+key U {
+    label:                              '\u0639'
+    base:                               '\u0639'
+    shift:                              '\u064E'
+}
+
+key V {
+    label:                              '\u0631'
+    base:                               '\u0631'
+    shift:                              '\u0670'
+	alt:                                '\u0656'
+}
+
+key W {
+    label:                              '\u0635'
+    base:                               '\u0635'
+    shift:                              '\u064C'
+}
+
+key X {
+    label:                              '\u0637'
+    base:                               '\u0637'
+    shift:                              '\u0653'
+}
+
+key Y {
+    label:                              '\u063A'
+    base:                               '\u063A'
+    shift:                              '\u0650'
+}
+
+key Z {
+    label:                              '\u0638'
+    base:                               '\u0638'
+    shift:                              '\u0643'
+}
+
+key 0 {
+    label:                              '\u06F0'
+    base:                               '\u06F0'
+    shift:                              '\u0028'
+	alt:                                '\u200F'
+}
+
+key 1 {
+    label:                              '\u06F1'
+    base:                               '\u06F1'
+    shift:                              '\u0021'
+	alt:                                '\u0060'
+}
+
+key 2 {
+    label:                              '\u06F2'
+    base:                               '\u06F2'
+    shift:                              '\u066C'
+	alt:                                '\u0040'
+}
+
+key 3 {
+    label:                              '\u06F3'
+    base:                               '\u06F3'
+    shift:                              '\u066B'
+	alt:                                '\u0023'
+}
+
+key 4 {
+    label:                              '\u06F4'
+    base:                               '\u06F4'
+    shift:                              '\uFDFC'
+	alt:                                '\u0024'
+}
+
+key 5 {
+    label:                              '\u06F5'
+    base:                               '\u06F5'
+    shift:                              '\u066A'
+	alt:                                '\u0025'
+}
+
+key 6 {
+    label:                              '\u06F6'
+    base:                               '\u06F6'
+    shift:                              '\u00D7'
+	alt:                                '\u005E'
+}
+
+key 7 {
+    label:                              '\u06F7'
+    base:                               '\u06F7'
+    shift:                              '\u060C'
+	alt:                                '\u0026'
+}
+
+key 8 {
+    label:                              '\u06F8'
+    base:                               '\u06F8'
+    shift:                              '\u002A'
+	alt:                                '\u2022'
+}
+
+key 9 {
+    label:                              '\u06F9'
+    base:                               '\u06F9'
+    shift:                              '\u0029'
+	alt:                                '\u200E'
+}
+
+key SPACE {
+    label:                              '\u0020'
+    base:                               '\u0020'
+	shift:                              '\u200C'
+    alt:                                '\u00A0'
+    ctrl:                               fallback LANGUAGE_SWITCH
+}
+
+key ENTER {
+    label:                              '\n'
+    base:                               '\n'
+}
+
+key TAB {
+    label:                              '\t'
+    base:                               '\t'
+}
+
+key COMMA {
+    label:                              '\u0648'
+    base:                               '\u0648'
+    shift:                              '\u003E'
+	alt:                                '\u002C'
+}
+
+key PERIOD {
+    label:                              '\u002E'
+    base:                               '\u002E'
+    shift:                              '\u003C'
+	alt:                                '\u0027'
+}
+
+key SLASH {
+    label:                              '\u002F'
+    base:                               '\u002F'
+    shift:                              '\u061F'
+	alt:                                '\u003F'
+}
+
+key GRAVE {
+    label:                              '\u200D'
+    base:                               '\u200D'
+    shift:                              '\u00F7'
+    alt:                                '\u007E'
+}
+
+key MINUS {
+    label:                              '\u002D'
+    base:                               '\u002D'
+    shift:                              '\u0640'
+	alt:                                '\u005F'
+}
+
+key EQUALS {
+    label:                              '\u003D'
+    base:                               '\u003D'
+    shift:                              '\u002B'
+	alt:                                '\u2212'
+}
+
+key LEFT_BRACKET {
+    label:                              '\u062C'
+    base:                               '\u062C'
+    shift:                              '\u007D'
+	alt:                                '\u202A'
+}
+
+key RIGHT_BRACKET {
+    label:                              '\u0686'
+    base:                               '\u0686'
+    shift:                              '\u007B'
+	alt:                                '\u202B'
+}
+
+key BACKSLASH {
+    label:                              '\u005C'
+    base:                               '\u005C'
+    shift:                              '\u007C'
+	alt:                                '\u2010'
+}
+
+key SEMICOLON {
+    label:                              '\u06A9'
+    base:                               '\u06A9'
+    shift:                              '\u003A'
+	alt:                                '\u003B'
+}
+
+key APOSTROPHE {
+    label:                              '\u06AF'
+    base:                               '\u06AF'
+    shift:                              '\u061B'
+	alt:                                '\u0022'
+}
+
+### Numeric keypad ###
+
+key NUMPAD_0 {
+    label:                              '0'
+    base:                               fallback INSERT
+    numlock:                            '0'
+}
+
+key NUMPAD_1 {
+    label:                              '1'
+    base:                               fallback MOVE_END
+    numlock:                            '1'
+}
+
+key NUMPAD_2 {
+    label:                              '2'
+    base:                               fallback DPAD_DOWN
+    numlock:                            '2'
+}
+
+key NUMPAD_3 {
+    label:                              '3'
+    base:                               fallback PAGE_DOWN
+    numlock:                            '3'
+}
+
+key NUMPAD_4 {
+    label:                              '4'
+    base:                               fallback DPAD_LEFT
+    numlock:                            '4'
+}
+
+key NUMPAD_5 {
+    label:                              '5'
+    base:                               fallback DPAD_CENTER
+    numlock:                            '5'
+}
+
+key NUMPAD_6 {
+    label:                              '6'
+    base:                               fallback DPAD_RIGHT
+    numlock:                            '6'
+}
+
+key NUMPAD_7 {
+    label:                              '7'
+    base:                               fallback MOVE_HOME
+    numlock:                            '7'
+}
+
+key NUMPAD_8 {
+    label:                              '8'
+    base:                               fallback DPAD_UP
+    numlock:                            '8'
+}
+
+key NUMPAD_9 {
+    label:                              '9'
+    base:                               fallback PAGE_UP
+    numlock:                            '9'
+}
+
+key NUMPAD_LEFT_PAREN {
+    label:                              '('
+    base:                               '('
+}
+
+key NUMPAD_RIGHT_PAREN {
+    label:                              ')'
+    base:                               ')'
+}
+
+key NUMPAD_DIVIDE {
+    label:                              '/'
+    base:                               '/'
+}
+
+key NUMPAD_MULTIPLY {
+    label:                              '*'
+    base:                               '*'
+}
+
+key NUMPAD_SUBTRACT {
+    label:                              '-'
+    base:                               '-'
+}
+
+key NUMPAD_ADD {
+    label:                              '+'
+    base:                               '+'
+}
+
+key NUMPAD_DOT {
+    label:                              '.'
+    base:                               fallback FORWARD_DEL
+    numlock:                            '.'
+}
+
+key NUMPAD_COMMA {
+    label:                              ','
+    base:                               ','
+}
+
+key NUMPAD_EQUALS {
+    label:                              '='
+    base:                               '='
+}
+
+key NUMPAD_ENTER {
+    label:                              '\n'
+    base:                               '\n' fallback ENTER
+    ctrl, alt, meta:                    none fallback ENTER
+}
+
+### Special keys on phones ###
+
+key AT {
+    label:                              '@'
+    base:                               '@'
+}
+
+key STAR {
+    label:                              '*'
+    base:                               '*'
+}
+
+key POUND {
+    label:                              '#'
+    base:                               '#'
+}
+
+key PLUS {
+    label:                              '+'
+    base:                               '+'
+}
+
+### Non-printing keys ###
+
+key ESCAPE {
+    base:                               fallback BACK
+    alt, meta:                          fallback HOME
+    ctrl:                               fallback MENU
+}
+
+### Gamepad buttons ###
+
+key BUTTON_A {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_B {
+    base:                               fallback BACK
+}
+
+key BUTTON_C {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_X {
+    base:                               fallback DEL
+}
+
+key BUTTON_Y {
+    base:                               fallback SPACE
+}
+
+key BUTTON_Z {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_L1 {
+    base:                               none
+}
+
+key BUTTON_R1 {
+    base:                               none
+}
+
+key BUTTON_L2 {
+    base:                               none
+}
+
+key BUTTON_R2 {
+    base:                               none
+}
+
+key BUTTON_THUMBL {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_THUMBR {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_START {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_SELECT {
+    base:                               fallback MENU
+}
+
+key BUTTON_MODE {
+    base:                               fallback MENU
+}
+
+key BUTTON_1 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_2 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_3 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_4 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_5 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_6 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_7 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_8 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_9 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_10 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_11 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_12 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_13 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_14 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_15 {
+    base:                               fallback DPAD_CENTER
+}
+
+key BUTTON_16 {
+    base:                               fallback DPAD_CENTER
+}

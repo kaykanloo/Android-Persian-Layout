@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Name of the application. [CHAR LIMIT=35] -->
+    <string name="app_name">Persian Ext. Keyboard Layout</string>
+
+    <!-- Keyboard layouts label, used to describe the set of all built-in layouts in the UI. [CHAR LIMIT=35] -->
+    <string name="keyboard_layouts_label">By Kaykanloo</string>
+
+    <!-- Lithuanian  keyboard layout label. [CHAR LIMIT=35] -->
+    <string name="keyboard_layout_persian_label">Persian</string>
+</resources>
